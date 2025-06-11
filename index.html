@@ -309,10 +309,10 @@
         [new THREE.Color(0x10B981), new THREE.Color(0xA3E635), new THREE.Color(0xFACC15), new THREE.Color(0xFB923C), new THREE.Color(0x4ADE80)]
     ];
 
-    const scene = new THREE.Scene();
+    const scene = new THREE Scene();
     scene.fog = new THREE.FogExp2(0x000000, 0.0015);
 
-    const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 1200);
+    const camera = new THREEPerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 1200);
     camera.position.set(0, 5, 22);
 
     const canvasElement = document.getElementById('neural-network-canvas'); // Get canvas element
